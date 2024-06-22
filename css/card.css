@@ -1,0 +1,74 @@
+.card{
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff1e; 
+    border-radius: 20px;
+    padding: 20px;
+}
+.card .card-thumb{
+    height: 70%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-thumb img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+article h2{
+    color: #ffffff;
+    font-size: medium;
+}
+h2 + p{
+    color: #95b8e0e7;
+    text-align: justify;
+}
+.market-summary{
+    border-bottom: solid thin #95b8e0e7;
+    padding-bottom: 10px;
+}
+
+.eth{
+    color: aquamarine;
+    font-weight: bold;
+}
+ion-icon{
+    font-size: small;
+}
+.market-summary{
+    display: flex;
+    justify-content: space-between;
+}
+.days{
+    color: #95b8e0e7;
+    font-weight: bold;
+}
+article img{
+    width: 100%;
+    border-radius: 50%;
+    border: thin solid #ffffff;
+}
+.person-info{
+    display: flex;
+
+}
+.person-info > div{
+    width: 50px;
+}
+.image-card{
+    align-self: center;
+    margin-right: 10px;
+}
+.person-info span{
+    color: #95b8e0e7;
+}
+.person-info p{
+    color: #ffffff;
+}
+div.person-info{
+    padding: 10px;
+}
+
